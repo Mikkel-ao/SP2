@@ -24,7 +24,7 @@ public abstract class Title {
         return "Title: " + title + ", Type: " + literatureType + ", Copies: " + copies;
     }
 
-    // Private literatureType so needed AudioBook and PrintedBook classes.
+    // Private literatureType so needed in AudioBook and PrintedBook classes.
     public String getLiteratureType() {
         return literatureType;
     }
