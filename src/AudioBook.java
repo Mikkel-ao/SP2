@@ -13,7 +13,7 @@ public class AudioBook extends Title {
 
     @Override // Assigning/returning values for each literature type.
     protected double calculateLiteraturePoints() {
-        switch (getLiteratureType()) {
+            switch (getLiteratureType()) {
             case "BI", "TE": return 1.5;
             case "LYRIK": return 3;
             case "SKØN": return 0.85;

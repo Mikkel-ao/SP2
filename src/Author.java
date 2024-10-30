@@ -26,7 +26,7 @@ public class Author {
         return name;
     }
 
-    @Override // Used to display Author and their titles to see if they get added correctly.
+    @Override // Used to display Author and their titles to see if they get added correctly. Not needed for assignment demands
     public String toString() {
         return "Author: " + name + ", Titles: " + titles;
     }

@@ -4,10 +4,10 @@ public class LibraryRoyalityCalculator {
     public static void main(String[] args) {
         // Create Author and add 3 different books and at least 1 audiobook.
         Author a1 = new Author("Author1");
-        Title audioBook1 = new AudioBook("Audiobook1", "SKØN", 10, 400);
-        Title printedBook1 = new PrintedBook("printedBook1", "BI", 30, 80);
-        Title printedBook2 = new PrintedBook("printedBook2", "TE", 140, 72);
-        Title printedBook3 = new PrintedBook("printedBook3", "FAG", 120, 200);
+        Title audioBook1 = new AudioBook("Skønlitteratur nu på lydbog", "SKØN", 10, 400);
+        Title printedBook1 = new PrintedBook("Bamses billedbog", "BI", 30, 80);
+        Title printedBook2 = new PrintedBook("Anders And", "TE", 140, 72);
+        Title printedBook3 = new PrintedBook("Java for dummies", "FAG", 120, 200);
         // Adding titles to author
         a1.addTitle(audioBook1);
         a1.addTitle(printedBook1);
@@ -31,7 +31,6 @@ public class LibraryRoyalityCalculator {
 
         // Displays money earned from all titles.
         System.out.println(a1.getName() + ": " + String.format("%.2f", a1.calculateTotalPay()) + " kr.");
-
 
     }
 }
